@@ -15,6 +15,7 @@
         "antd": "^3.9.2",
         "axios": "^0.18.0",
         "babel-plugin-react-css-modules": "^3.4.2",
+        "fontawesome": "^4.7.2",
         "history": "^4.7.2",
         "lodash.debounce": "^4.0.8",
         "lodash.without": "^4.4.0",
@@ -22,6 +23,7 @@
         "moment": "^2.22.2",
         "react": "^16.4.2",
         "react-dom": "^16.4.2",
+        "react-fontawesome": "^1.6.1",
         "react-router-dom": "^4.3.1"
     },
     "devDependencies": {
