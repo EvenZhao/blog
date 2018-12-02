@@ -1,0 +1,14 @@
+.left_item{
+    width: 13.5em;
+    height: 100%;
+    border-right: 1px #eee solid;
+    position: fixed;
+    padding: 2em;
+}
+.left_item img{
+    width: 9em;
+    height: 9em;
+    border-radius: 4.5em;
+    -moz-border-radius: 4.5em;
+    -webkit-border-radius: 4.5em;
+}
