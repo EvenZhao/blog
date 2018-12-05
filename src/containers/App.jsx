@@ -1,19 +1,8 @@
-<<<<<<< HEAD
-import { hot } from 'react-hot-loader';
-class App extends React.Component {
-    render() {
-        return (
-            <div>
-                ppp
-=======
 import React, { Component } from 'react';
 import globalCss from '../assets/css/global.css';
 import mainCss from '../assets/css/mian.css';
 import FontAwesomeIcon from 'react-fontawesome';
-
-
-
-
+import { hot } from 'react-hot-loader';
 import Guo_Lin from '../assets/images/guolin.jpg';
 
 class App extends Component {
@@ -35,14 +24,9 @@ class App extends Component {
                     </div>
 					<h4 className="about_btn">About</h4>
 				</div>
->>>>>>> master
             </div>
         )
     }
 }
 
-<<<<<<< HEAD
 export default hot(module)(App);
-=======
-export default App;
->>>>>>> master
