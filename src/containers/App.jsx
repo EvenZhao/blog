@@ -1,9 +1,15 @@
+import { Router, Route, } from "react-router-dom";
+import createHistory from "history/createBrowserHistory";
 import React, { Component } from 'react';
 import globalCss from '../assets/css/global.css';
 import mainCss from '../assets/css/mian.css';
 import FontAwesomeIcon from 'react-fontawesome';
 import { hot } from 'react-hot-loader';
 import Guo_Lin from '../assets/images/guolin.jpg';
+import Index from '../routes/Index.jsx';
+import Content from '../routes/Content.jsx';
+
+const history = createHistory();
 
 class App extends Component {
     render() {
@@ -24,6 +30,14 @@ class App extends Component {
                     </div>
 					<h4 className="about_btn">About</h4>
 				</div>
+                <div className="right_item">
+                    <Router history={ history }>
+                        <div>
+                            <Route exact path="/" component={ Index } />
+                            <Route exact path="/content" component={ Content } />
+                        </div>
+                    </Router>
+                </div>
             </div>
         )
     }

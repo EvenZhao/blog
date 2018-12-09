@@ -12,3 +12,26 @@
     -moz-border-radius: 4.5em;
     -webkit-border-radius: 4.5em;
 }
+.right_item{
+    margin-left: 22em;
+}
+.right_item .Index{
+    padding-top: 2em;
+}
+.right_item section{
+    border-bottom: 1px #eee solid;
+    line-height: 4em;
+}
+.right_item section a{
+    color:rgb(4, 172, 46);
+}
+.right_item section a:hover{
+    cursor: pointer;
+}
+.right_item section span{
+    color: #888;
+}
+.right_item footer{
+    margin-top: 5em;
+    color: #888;
+}
